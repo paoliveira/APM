@@ -1,0 +1,6 @@
+<div class="card" *ngIf="product">
+    <div class="card-header">
+        {{pageTitle + ': ' + productId + ' - ' + product.productName}}
+    </div>
+    <button class="btn btn-primary" (click)="onBack()">Go back</button>
+</div>
